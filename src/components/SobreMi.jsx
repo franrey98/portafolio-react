@@ -2,11 +2,13 @@ import React from 'react'
 
 const SobreMi = () => {
     return (
-        <div className=' bg-gradient-to-t from-neutral-400 to-zinc-500'>
-            <h1 className='text-center mt-8 font-bold text-2xl'>Hola</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate voluptatibus architecto quam nostrum. Architecto itaque a expedita, voluptatum, sunt animi, sapiente voluptatibus dolores consequuntur natus dicta consequatur fuga voluptas.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate voluptatibus architecto quam nostrum. Architecto itaque a expedita, voluptatum, sunt animi, sapiente voluptatibus dolores consequuntur natus dicta consequatur fuga voluptas.</p>
-        </div>
+        <section className=' bg-gradient-to-t from-zinc-700 to-neutral-800'>
+            <h1 className='text-center mt-8 pt-6 font-medium text-2xl uppercase text-white tracking-wider'>Sobre Mi</h1>
+            <hr className="mx-8 mt-8" />
+            <p className='text-white mx-4 mt-8 text-lg text-center leading-8 tracking-widest'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corporis quis similique esse delectus fugiat voluptatem blanditiis beatae harum ullam ipsum ut laborum deserunt ab error ducimus, modi aliquid inventore modi aliquid inventore modi !</p>
+            <p className='text-white mx-4 mt-8 text-lg text-center pb-8 leading-8'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corporis quis similique esse delectus fugiat voluptatem blanditiis beatae harum ullam ipsum ut laborum deserunt ab error ducimus, modi aliquid inventore modi aliquid inventore modi !</p>
+
+        </section>
     )
 }
 

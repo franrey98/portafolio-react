@@ -3,7 +3,7 @@ import fotocv from '../img/fotocv2.jpeg'
 
 const Main = () => {
     return (
-        <div>
+        <main>
             <div className='flex justify-center mt-16'>
                 <div className='border-8 border-white-400 rounded-sm shadow-2xl p-3 bg-white'>
                     <img className='h-64 flex' src={fotocv} alt="fotocv" />
@@ -13,7 +13,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
 
