@@ -6,7 +6,7 @@
 /* css puro */
 
 body {
-    font-family: Lato, monospace;
+    font-family: 'Mukta', sans-serif;
 }
 
 
@@ -17,4 +17,22 @@ body {
     background-repeat: no-repeat;
     height: 20rem;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .img-fondo {
+        height: 30rem;
+    }
+}
+    
+@media (min-width: 1024px) {
+    .img-fondo {
+        height: 40rem;
+    }
+}
+    
+@media (min-width: 1280px) {
+    .img-fondo {
+        height: 50rem;
+    }
 }
