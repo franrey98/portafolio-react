@@ -1,9 +1,7 @@
-import fotoejemplo from '../img/fondo.jpg'
-
 const Contacto = () => {
     return (
-        <section className='md:mx-32'>
-            <h1 className="text-center mt-3 pt-6 font-medium text-2xl uppercase tracking-wider">Contacto</h1>
+        <section id='contacto' className='md:mx-32'>
+            <h1 className="text-center mt-3 pt-6 font-medium text-4xl uppercase tracking-wider">Contacto</h1>
             <hr className='mx-8 my-6 border border-solid border-gray-400 2xl:mx-80' />
             <h3 className='text-center font-medium text-xl mx-4'>¡Comunicate conmigo completando este formulario!</h3>
             <div className='p-2 bg-rose-700 mx-8 mt-6 rounded-sm lg:mx-40 lg:px-16 2xl:mx-80'>

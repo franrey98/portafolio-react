@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll'
 
 const Header = () => {
     return (
@@ -6,16 +7,16 @@ const Header = () => {
                 <nav className='mt-4 md:mt-8 lg:mt-16'>
                     <ul className='lg:flex'>
                         <li>
-                            <a className=' md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse' href='sobremi'>Sobre Mi</a>
+                            <Link smooth={true} offset={50} duration={500} to='sobremi' className='cursor-pointer md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse' >Sobre Mi</Link>
                         </li>
                         <li>
-                            <a className=' md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse' href='conocimientos'>Conocimientos</a>
+                            <Link smooth={true} offset={50} duration={500} to='conocimientos' className='cursor-pointer md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse'>Conocimientos</Link>
                         </li>
                         <li>
-                            <a className='mx-1 md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse' href='proyectos'>Proyectos</a>
+                            <Link smooth={true} offset={50} duration={500} to='proyectos' className='cursor-pointer mx-1 md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse'>Proyectos</Link>
                         </li>
                         <li>
-                            <a className='mx-1 md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse' href='contacto'>Contacto</a>
+                            <Link smooth={true} offset={50} duration={500} to='contacto' className='cursor-pointer mx-1 md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse'>Contacto</Link>
                         </li>
                     </ul>
                 </nav>
