@@ -2,10 +2,10 @@ import { Link } from 'react-scroll'
 
 const Header = () => {
     return (
-        <div className='img-fondo'>
+        <div className='bg-black md:h-22'>
             <div className='flex items-center justify-around'>
-                <nav className='mt-4 md:mt-8 lg:mt-16'>
-                    <ul className='lg:flex'>
+                <nav className='p-4 md:mt-8 md:pb-4'>
+                    <ul className='md:flex lg:flex'>
                         <li>
                             <Link smooth={true} offset={50} duration={500} to='sobremi' className='cursor-pointer md:mx-6 lg:mx-10 text-white font-normal text-lg p-1  rounded-sm  hover:bg-indigo-600 transition-all hover:animate-pulse' >Sobre Mi</Link>
                         </li>

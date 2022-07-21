@@ -5,7 +5,7 @@ import todoapp from '../img/todoapp.png'
 const Proyectos = () => {
     return (
         <section id='proyectos' className='py-16'>
-            <div className=" bg-gradient-to-t from-zinc-700 to-neutral-800 pb-8">
+            <div className=" bg-gradient-to-t from-slate-700 to-neutral-800 pb-8">
                 <h2 className="text-center mt-8 pt-10 font-medium text-4xl uppercase text-white tracking-wider">Mis proyectos</h2>
                 <h3 className="text-center text-white mt-6 font-normal text-lg">¡ Estos son mis trabajos realizados !</h3>
                 <hr className="mx-8 mt-8 md:mx-32 lg:mx-40 2xl:mx-96" />

@@ -4,7 +4,7 @@ const Contacto = () => {
             <h1 className="text-center mt-3 pt-6 font-medium text-4xl uppercase tracking-wider">Contacto</h1>
             <hr className='mx-8 my-6 border border-solid border-gray-400 2xl:mx-80' />
             <h3 className='text-center font-medium text-xl mx-4'>¡Comunicate conmigo completando este formulario!</h3>
-            <div className='p-2 bg-rose-700 mx-8 mt-6 rounded-sm lg:mx-40 lg:px-16 2xl:mx-80'>
+            <div className='p-2 bg-black mx-8 mt-6 rounded-sm lg:mx-40 lg:px-16 2xl:mx-80'>
                 <form className='p-2 mx-6 my-4'>
                     <div className='flex gap-2 mb-6 '>
                         <label className='text-white font-semibold text-xl' htmlFor="">Nombre:</label>

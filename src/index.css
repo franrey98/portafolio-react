@@ -9,30 +9,3 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-
-.img-fondo {
-    background-image: linear-gradient(rgba(55, 58, 66, 0.75), rgba(5,7,13,0.75)),
-     url(../src/img/fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 20rem;
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    .img-fondo {
-        height: 30rem;
-    }
-}
-    
-@media (min-width: 1024px) {
-    .img-fondo {
-        height: 40rem;
-    }
-}
-    
-@media (min-width: 1280px) {
-    .img-fondo {
-        height: 50rem;
-    }
-}

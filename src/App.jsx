@@ -5,16 +5,20 @@ import Conocimientos from './components/Conocimientos';
 import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
+import { AppBar } from '@mui/material';
+
 
 function App() {
 
   return (
     <div>
-      <Header />
-      <div className='-mt-60 md:-mt-96'>
-        <Main />
-        <SobreMi />
+      <div className=''>
+        <AppBar color="default">
+          <Header />
+        </AppBar>
       </div>
+      <Main />
+      <SobreMi />
       <Conocimientos />
       <Proyectos />
       <Contacto />
