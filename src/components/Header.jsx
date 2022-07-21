@@ -2,7 +2,7 @@ import { Link } from 'react-scroll'
 
 const Header = () => {
     return (
-        <header className='bg-sky-800 md:h-22'>
+        <header className='bg-black md:h-22'>
             <div className='flex items-center justify-around'>
                 <nav className='p-2 md:mt-8 md:pb-6'>
                     <ul className='md:flex lg:flex'>
