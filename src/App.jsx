@@ -12,11 +12,9 @@ function App() {
 
   return (
     <div>
-      <div className=''>
-        <AppBar color="default">
-          <Header />
-        </AppBar>
-      </div>
+      <AppBar color="default">
+        <Header />
+      </AppBar>
       <Main />
       <SobreMi />
       <Conocimientos />

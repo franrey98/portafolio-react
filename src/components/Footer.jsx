@@ -7,7 +7,7 @@ import github from '../img/github.png'
 const Footer = () => {
     return (
         <footer className='mt-4 pt-6'>
-            <div className="bg-slate-700 py-6">
+            <div className="bg-sky-800 py-6">
                 <div className='flex flex-col gap-4 items-center justify-around lg:flex-row lg:mx-60'>
                     <nav className='mt-2 lg:flex lg:flex-col'>
                         <Link smooth={true} offset={50} duration={500} className='cursor-pointer  lg:mx-6 text-white font-normal text-lg p-1 rounded-sm  hover:bg-white  transition-all hover:text-stone-800 hover:animate-pulse' to='sobremi'>Sobre Mi</Link>

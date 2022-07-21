@@ -3,7 +3,7 @@ import React from 'react'
 const SobreMi = () => {
     return (
         <section id='sobremi' className=''>
-            <div className='bg-gradient-to-t from-slate-700 to-neutral-800'>
+            <div className='bg-gradient-to-t from-slate-900 to-black'>
                 <div className='md:mx-32 2xl:mx-80'>
                     <h1 className='text-center mt-8 pt-20 font-medium text-4xl uppercase text-white tracking-wider lg:pt-20'>Sobre Mi</h1>
                     <hr className="mx-8 mt-8" />
